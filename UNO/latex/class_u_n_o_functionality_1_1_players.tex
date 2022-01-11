@@ -1,0 +1,131 @@
+\hypertarget{class_u_n_o_functionality_1_1_players}{}\doxysection{UNOFunctionality.\+Players Class Reference}
+\label{class_u_n_o_functionality_1_1_players}\index{UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_u_n_o_functionality_1_1_players_a4b53bf454c5a16f306ad08ba15db5f42}{Players}} (List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$ all\+Cards, int set\+Index)
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_a6a5710742be13efd006b0134d57a844d}{Draw\+Card}} (\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+\_\+game)
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_a69c8f45d453c357aac2c979d11ba2ed0}{Draw\+\_\+many\+\_\+cards}} (int i, \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+\_\+game)
+\item 
+\mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_aea1452980e78136dc09ca752ffd79a34}{Play\+Card}} (int card\+Index, \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+\_\+game, String choose\+Color)
+\item 
+List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_a58836e4d7cadc51abe8f16e9bb5176a5}{get\+\_\+hand\+\_\+cards}} ()
+\item 
+int \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_af06738faeaadeef6f77a6f75873d1bf0}{get\+\_\+hand\+\_\+size}} ()
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_a19dd49a07166415ff2f9e74bd6df2098}{set\+\_\+card\+\_\+state}} (int state)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_a08d413eb7944192fbf585a2c56136f4e}{index}}
+\item 
+String \mbox{\hyperlink{class_u_n_o_functionality_1_1_players_aa8ff0c941e684243fd3dfb7465c23062}{new\+Wild\+Color}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_a4b53bf454c5a16f306ad08ba15db5f42}\label{class_u_n_o_functionality_1_1_players_a4b53bf454c5a16f306ad08ba15db5f42}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!Players@{Players}}
+\index{Players@{Players}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{Players()}{Players()}}
+{\footnotesize\ttfamily UNOFunctionality.\+Players.\+Players (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$}]{all\+Cards,  }\item[{int}]{set\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+constructor for creating one player. 
+\begin{DoxyParams}{Parameters}
+{\em all\+Cards} & \\
+\hline
+{\em set\+Index} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_a69c8f45d453c357aac2c979d11ba2ed0}\label{class_u_n_o_functionality_1_1_players_a69c8f45d453c357aac2c979d11ba2ed0}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!Draw\_many\_cards@{Draw\_many\_cards}}
+\index{Draw\_many\_cards@{Draw\_many\_cards}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{Draw\_many\_cards()}{Draw\_many\_cards()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Players.\+Draw\+\_\+many\+\_\+cards (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+\_\+game }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & -\/ How many times \\
+\hline
+{\em cur\+\_\+game} & -\/ Cur game state \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_a6a5710742be13efd006b0134d57a844d}\label{class_u_n_o_functionality_1_1_players_a6a5710742be13efd006b0134d57a844d}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!DrawCard@{DrawCard}}
+\index{DrawCard@{DrawCard}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{DrawCard()}{DrawCard()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Players.\+Draw\+Card (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+\_\+game }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+draw one card 
+\begin{DoxyParams}{Parameters}
+{\em cur\+\_\+game} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_a58836e4d7cadc51abe8f16e9bb5176a5}\label{class_u_n_o_functionality_1_1_players_a58836e4d7cadc51abe8f16e9bb5176a5}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!get\_hand\_cards@{get\_hand\_cards}}
+\index{get\_hand\_cards@{get\_hand\_cards}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{get\_hand\_cards()}{get\_hand\_cards()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$ UNOFunctionality.\+Players.\+get\+\_\+hand\+\_\+cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+get hand cards 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_af06738faeaadeef6f77a6f75873d1bf0}\label{class_u_n_o_functionality_1_1_players_af06738faeaadeef6f77a6f75873d1bf0}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!get\_hand\_size@{get\_hand\_size}}
+\index{get\_hand\_size@{get\_hand\_size}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{get\_hand\_size()}{get\_hand\_size()}}
+{\footnotesize\ttfamily int UNOFunctionality.\+Players.\+get\+\_\+hand\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+get hand size 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_aea1452980e78136dc09ca752ffd79a34}\label{class_u_n_o_functionality_1_1_players_aea1452980e78136dc09ca752ffd79a34}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!PlayCard@{PlayCard}}
+\index{PlayCard@{PlayCard}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{PlayCard()}{PlayCard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} UNOFunctionality.\+Players.\+Play\+Card (\begin{DoxyParamCaption}\item[{int}]{card\+Index,  }\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+\_\+game,  }\item[{String}]{choose\+Color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+if a player wants to play a card... remember to check if card\+Index is valid!!! 
+\begin{DoxyParams}{Parameters}
+{\em card\+Index} & \\
+\hline
+{\em cur\+\_\+game} & \\
+\hline
+{\em choose\+Color} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_a19dd49a07166415ff2f9e74bd6df2098}\label{class_u_n_o_functionality_1_1_players_a19dd49a07166415ff2f9e74bd6df2098}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!set\_card\_state@{set\_card\_state}}
+\index{set\_card\_state@{set\_card\_state}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{set\_card\_state()}{set\_card\_state()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Players.\+set\+\_\+card\+\_\+state (\begin{DoxyParamCaption}\item[{int}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+set card state 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_a08d413eb7944192fbf585a2c56136f4e}\label{class_u_n_o_functionality_1_1_players_a08d413eb7944192fbf585a2c56136f4e}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!index@{index}}
+\index{index@{index}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily int UNOFunctionality.\+Players.\+index}
+
+where player is at in the players list \mbox{\Hypertarget{class_u_n_o_functionality_1_1_players_aa8ff0c941e684243fd3dfb7465c23062}\label{class_u_n_o_functionality_1_1_players_aa8ff0c941e684243fd3dfb7465c23062}} 
+\index{UNOFunctionality.Players@{UNOFunctionality.Players}!newWildColor@{newWildColor}}
+\index{newWildColor@{newWildColor}!UNOFunctionality.Players@{UNOFunctionality.Players}}
+\doxysubsubsection{\texorpdfstring{newWildColor}{newWildColor}}
+{\footnotesize\ttfamily String UNOFunctionality.\+Players.\+new\+Wild\+Color}
+
+what player choose to be the new color after he played a wild card 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+UNOFunctionality/\mbox{\hyperlink{_players_8java}{Players.\+java}}\end{DoxyCompactItemize}

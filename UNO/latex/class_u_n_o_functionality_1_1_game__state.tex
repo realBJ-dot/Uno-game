@@ -1,0 +1,196 @@
+\hypertarget{class_u_n_o_functionality_1_1_game__state}{}\doxysection{UNOFunctionality.\+Game\+\_\+state Class Reference}
+\label{class_u_n_o_functionality_1_1_game__state}\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a14d46ae2da9e2d7f8643bcae9dedb2bc}{Game\+\_\+state}} (int set\+\_\+num\+Player, int set\+\_\+whose\+Turn)
+\item 
+boolean \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a2a0f824c413932c0ee33660c7caa101b}{if\+\_\+all\+Cards\+\_\+empty}} ()
+\item 
+boolean \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_acbc956d1cce6a16c2a5ebcf7d2b8180a}{check\+\_\+card\+\_\+rules}} (int card\+Index, \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+\_\+game, int player\+Index)
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_aaff45d05245f69418127228a26b06e57}{penalty}} (int Player\+Index, \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+Game)
+\item 
+\mbox{\hyperlink{class_u_n_o_functionality_1_1_players}{Players}} \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_aed3610d80dd450422167ea71d5e95acb}{winner\+\_\+check}} (\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+\_\+game)
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a7515b0366168f6b6e49dceb1f7fc2947}{winner\+\_\+set}} (\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+Gsme, int index)
+\item 
+\mbox{\hyperlink{class_u_n_o_functionality_1_1_players}{Players}} \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a2333cb20a651eada97b3e106fb93d3fb}{winner\+\_\+get}} (\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+Game)
+\item 
+List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_aa76bae1456c0f1e6d3831e885ebdf653}{get\+\_\+all\+Cards}} ()
+\item 
+List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_players}{Players}} $>$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a3550586c7052230858270b5942eba8cf}{get\+\_\+all\+\_\+players}} ()
+\item 
+\mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a9ecb35fcfc4667aa0313842c7fa028fb}{get\+\_\+last\+\_\+card}} ()
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a492d6b8291395e751e90d74b44176fe7}{set\+\_\+last\+\_\+card}} (\mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} set\+Card)
+\item 
+List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_ade26aa3cc565a62b69463c8567866c07}{get\+\_\+dump\+\_\+pile}} ()
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a04f505691055c5b021378118292ccbd3}{turns\+\_\+changer}} ()
+\item 
+void \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a33ab1f5de49c9891fdfa99090bb0090a}{print\+\_\+status}} ()
+\item 
+boolean \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a3fc3c3b3b15d9f9a4e0d3c9cae33dd30}{check\+\_\+addition\+\_\+rule}} (int card\+Index\+First, int card\+Index\+Second, \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+\_\+game, int player\+Index)
+\item 
+boolean \mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state_a74aaa3193a7fcf85f0cfba8f3a3b96a6}{check\+\_\+uno\+\_\+face\+\_\+up}} (\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}} cur\+Game)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a14d46ae2da9e2d7f8643bcae9dedb2bc}\label{class_u_n_o_functionality_1_1_game__state_a14d46ae2da9e2d7f8643bcae9dedb2bc}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!Game\_state@{Game\_state}}
+\index{Game\_state@{Game\_state}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{Game\_state()}{Game\_state()}}
+{\footnotesize\ttfamily UNOFunctionality.\+Game\+\_\+state.\+Game\+\_\+state (\begin{DoxyParamCaption}\item[{int}]{set\+\_\+num\+Player,  }\item[{int}]{set\+\_\+whose\+Turn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Initializing a game state of default cards and players as needed 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a3fc3c3b3b15d9f9a4e0d3c9cae33dd30}\label{class_u_n_o_functionality_1_1_game__state_a3fc3c3b3b15d9f9a4e0d3c9cae33dd30}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!check\_addition\_rule@{check\_addition\_rule}}
+\index{check\_addition\_rule@{check\_addition\_rule}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{check\_addition\_rule()}{check\_addition\_rule()}}
+{\footnotesize\ttfamily boolean UNOFunctionality.\+Game\+\_\+state.\+check\+\_\+addition\+\_\+rule (\begin{DoxyParamCaption}\item[{int}]{card\+Index\+First,  }\item[{int}]{card\+Index\+Second,  }\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+\_\+game,  }\item[{int}]{player\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+check for Addition rule 
+\begin{DoxyParams}{Parameters}
+{\em card\+Index\+First} & \\
+\hline
+{\em card\+Index\+Second} & \\
+\hline
+{\em cur\+\_\+game} & \\
+\hline
+{\em player\+Index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if valid to play, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_acbc956d1cce6a16c2a5ebcf7d2b8180a}\label{class_u_n_o_functionality_1_1_game__state_acbc956d1cce6a16c2a5ebcf7d2b8180a}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!check\_card\_rules@{check\_card\_rules}}
+\index{check\_card\_rules@{check\_card\_rules}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{check\_card\_rules()}{check\_card\_rules()}}
+{\footnotesize\ttfamily boolean UNOFunctionality.\+Game\+\_\+state.\+check\+\_\+card\+\_\+rules (\begin{DoxyParamCaption}\item[{int}]{card\+Index,  }\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+\_\+game,  }\item[{int}]{player\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+check if the card that a player picked is playable, and the effect of the last player\textquotesingle{}s card that he played. 
+\begin{DoxyParams}{Parameters}
+{\em card\+Index} & -\/ the index of the card in this player\textquotesingle{}s hand \\
+\hline
+{\em cur\+\_\+game} & -\/ cur game state \\
+\hline
+{\em player\+Index} & -\/ the index of the player at player list \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if this player can play this card, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a74aaa3193a7fcf85f0cfba8f3a3b96a6}\label{class_u_n_o_functionality_1_1_game__state_a74aaa3193a7fcf85f0cfba8f3a3b96a6}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!check\_uno\_face\_up@{check\_uno\_face\_up}}
+\index{check\_uno\_face\_up@{check\_uno\_face\_up}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{check\_uno\_face\_up()}{check\_uno\_face\_up()}}
+{\footnotesize\ttfamily boolean UNOFunctionality.\+Game\+\_\+state.\+check\+\_\+uno\+\_\+face\+\_\+up (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+Game }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+check for uno card face up rule 
+\begin{DoxyParams}{Parameters}
+{\em cur\+Game} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if there is a player with only one card in hand, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a3550586c7052230858270b5942eba8cf}\label{class_u_n_o_functionality_1_1_game__state_a3550586c7052230858270b5942eba8cf}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!get\_all\_players@{get\_all\_players}}
+\index{get\_all\_players@{get\_all\_players}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{get\_all\_players()}{get\_all\_players()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_players}{Players}} $>$ UNOFunctionality.\+Game\+\_\+state.\+get\+\_\+all\+\_\+players (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+-\/ get player list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_aa76bae1456c0f1e6d3831e885ebdf653}\label{class_u_n_o_functionality_1_1_game__state_aa76bae1456c0f1e6d3831e885ebdf653}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!get\_allCards@{get\_allCards}}
+\index{get\_allCards@{get\_allCards}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{get\_allCards()}{get\_allCards()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$ UNOFunctionality.\+Game\+\_\+state.\+get\+\_\+all\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+-\/ get all\+Cards 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_ade26aa3cc565a62b69463c8567866c07}\label{class_u_n_o_functionality_1_1_game__state_ade26aa3cc565a62b69463c8567866c07}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!get\_dump\_pile@{get\_dump\_pile}}
+\index{get\_dump\_pile@{get\_dump\_pile}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{get\_dump\_pile()}{get\_dump\_pile()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} $>$ UNOFunctionality.\+Game\+\_\+state.\+get\+\_\+dump\+\_\+pile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+-\/ dump pile 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a9ecb35fcfc4667aa0313842c7fa028fb}\label{class_u_n_o_functionality_1_1_game__state_a9ecb35fcfc4667aa0313842c7fa028fb}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!get\_last\_card@{get\_last\_card}}
+\index{get\_last\_card@{get\_last\_card}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{get\_last\_card()}{get\_last\_card()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}} UNOFunctionality.\+Game\+\_\+state.\+get\+\_\+last\+\_\+card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+-\/ get last played card 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a2a0f824c413932c0ee33660c7caa101b}\label{class_u_n_o_functionality_1_1_game__state_a2a0f824c413932c0ee33660c7caa101b}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!if\_allCards\_empty@{if\_allCards\_empty}}
+\index{if\_allCards\_empty@{if\_allCards\_empty}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{if\_allCards\_empty()}{if\_allCards\_empty()}}
+{\footnotesize\ttfamily boolean UNOFunctionality.\+Game\+\_\+state.\+if\+\_\+all\+Cards\+\_\+empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+if all\+\_\+card is drawn out, replace it with discarded cards \begin{DoxyReturn}{Returns}
+true if all cards is empty, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_aaff45d05245f69418127228a26b06e57}\label{class_u_n_o_functionality_1_1_game__state_aaff45d05245f69418127228a26b06e57}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!penalty@{penalty}}
+\index{penalty@{penalty}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{penalty()}{penalty()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Game\+\_\+state.\+penalty (\begin{DoxyParamCaption}\item[{int}]{Player\+Index,  }\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+Game }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+penalty if this player has no valid card to play \mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a33ab1f5de49c9891fdfa99090bb0090a}\label{class_u_n_o_functionality_1_1_game__state_a33ab1f5de49c9891fdfa99090bb0090a}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!print\_status@{print\_status}}
+\index{print\_status@{print\_status}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{print\_status()}{print\_status()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Game\+\_\+state.\+print\+\_\+status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+print the current state\textquotesingle{}s status \mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a492d6b8291395e751e90d74b44176fe7}\label{class_u_n_o_functionality_1_1_game__state_a492d6b8291395e751e90d74b44176fe7}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!set\_last\_card@{set\_last\_card}}
+\index{set\_last\_card@{set\_last\_card}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{set\_last\_card()}{set\_last\_card()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Game\+\_\+state.\+set\+\_\+last\+\_\+card (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_card}{Card}}}]{set\+Card }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+set last played card, for testing purpose only \mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a04f505691055c5b021378118292ccbd3}\label{class_u_n_o_functionality_1_1_game__state_a04f505691055c5b021378118292ccbd3}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!turns\_changer@{turns\_changer}}
+\index{turns\_changer@{turns\_changer}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{turns\_changer()}{turns\_changer()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Game\+\_\+state.\+turns\+\_\+changer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+change whose turn \mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_aed3610d80dd450422167ea71d5e95acb}\label{class_u_n_o_functionality_1_1_game__state_aed3610d80dd450422167ea71d5e95acb}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!winner\_check@{winner\_check}}
+\index{winner\_check@{winner\_check}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{winner\_check()}{winner\_check()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_u_n_o_functionality_1_1_players}{Players}} UNOFunctionality.\+Game\+\_\+state.\+winner\+\_\+check (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+\_\+game }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+-\/ check if theres a winner! 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a2333cb20a651eada97b3e106fb93d3fb}\label{class_u_n_o_functionality_1_1_game__state_a2333cb20a651eada97b3e106fb93d3fb}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!winner\_get@{winner\_get}}
+\index{winner\_get@{winner\_get}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{winner\_get()}{winner\_get()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_u_n_o_functionality_1_1_players}{Players}} UNOFunctionality.\+Game\+\_\+state.\+winner\+\_\+get (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+Game }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+get winner \mbox{\Hypertarget{class_u_n_o_functionality_1_1_game__state_a7515b0366168f6b6e49dceb1f7fc2947}\label{class_u_n_o_functionality_1_1_game__state_a7515b0366168f6b6e49dceb1f7fc2947}} 
+\index{UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}!winner\_set@{winner\_set}}
+\index{winner\_set@{winner\_set}!UNOFunctionality.Game\_state@{UNOFunctionality.Game\_state}}
+\doxysubsubsection{\texorpdfstring{winner\_set()}{winner\_set()}}
+{\footnotesize\ttfamily void UNOFunctionality.\+Game\+\_\+state.\+winner\+\_\+set (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_u_n_o_functionality_1_1_game__state}{Game\+\_\+state}}}]{cur\+Gsme,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+set winner, for debugging only 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+UNOFunctionality/\mbox{\hyperlink{_game__state_8java}{Game\+\_\+state.\+java}}\end{DoxyCompactItemize}
